@@ -123,3 +123,19 @@ footer { background: var(--black); color: white; text-align: center; padding: 40
     z-index: 1000;
 }
 .whatsapp-float img { width: 35px; }
+
+.reviews { background: var(--gray); }
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.review-card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.stars { margin-bottom: 15px; }
+.client-name { display: block; margin-top: 15px; font-weight: bold; color: var(--gold); }
